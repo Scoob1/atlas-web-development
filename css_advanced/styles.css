@@ -1,0 +1,122 @@
+/* GLOBAL STYLES */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER STYLES */
+header {
+    min-height: 100vh;
+    color: #ffffff;
+    background-image: url("images/pic_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.svg-logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+.nav-container {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.nav-menu nav a {
+    margin-left: 35px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* BANNER SECTION */
+.banner h1 {
+    font-size: 120px;
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-weight: bold;
+}
+
+.banner p {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.banner-button {
+    padding: 15px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #C271FF;
+    color: #ffffff;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.banner h2 {
+    text-align: center;
+    margin-top: 105px;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.profile-block {
+    width: calc(25% - 20px);
+    text-align: center;
+    margin: 10px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    font-size: 18px;
+}
+
+.profile-desc {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    opacity: 0.8;
+}
