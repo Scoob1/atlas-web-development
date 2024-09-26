@@ -428,3 +428,13 @@ li a {
     font-size: 12px;
     font-weight: 100;
 }
+
+#trademark {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    opacity: 0.3517;
+    font-size: 12px;
+    font-weight: 400px;
+    top: 4025px;
+}
