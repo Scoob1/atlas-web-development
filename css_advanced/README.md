@@ -17,6 +17,8 @@ This project focuses on implementing the CSS styling for a webpage based on a de
 - **Files Included**:
   - `index.html`: The main HTML file for the project.
   - `styles.css`: The stylesheet containing all the CSS styles.
+  - `images`: The file that contains all the images used in the project.
+  - `README.md`: A readme file that consists of an overview of the project.
 
 ## Tasks
 
